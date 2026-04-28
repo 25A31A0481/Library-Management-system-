@@ -1,4 +1,4 @@
-# Library-Management-system-
+#Library-Management-system
 #include <stdio.h>
 struct Track {
     char Bname[30];
@@ -16,9 +16,9 @@ int main() {
         printf("\nEnter details for record %d:\n", i + 1);
         
         printf("Book Name: ");
-        scanf("%s", T[i].Bname); 
+        scanf("%s",& T[i].Bname); 
         printf("Author Name: ");
-        scanf("%s", T[i].authorname);
+        scanf("%s", &T[i].authorname);
         printf("Student ID: ");
         scanf("%d", &T[i].id); 
     }
